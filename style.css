@@ -1,0 +1,147 @@
+body,
+html {
+	height:  100%;
+	margin: 0; <!-- full fit -->
+	font:400, 15px/1.8 "Lato", sans-serif;
+	color: #777;
+}
+
+.nav {
+	list-style: none; <!--list no bullet point -->
+}
+
+.bar li {
+	padding: 0px 5px;
+	list-style: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.bar li a {
+	transition: all 0.3s ease 0s;
+}
+
+button {
+	padding:  10px 25px;
+	color: white;
+	text-transform: uppercase;
+	background-color: rgba(165,165,107, 1);
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: all 0.2s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(165,165,107, 0.5);
+}
+
+/*end styling header */
+
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4
+{
+	position: relative;
+	opacity:0.75;
+	/*background-attachment: fixed; */
+	background-attachment:fixed; <!-- show the parallax scolling effect -->
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.bgimg1 {
+background-image: url('mtfuji.jpg');
+min-height: 700px;
+}
+
+.bgimg2 {
+	background-image: url('concert.jpg');
+	min-height: 700px;
+
+}
+.bgimg3 {
+	background-image: url('cityoftokyo.jpg');
+	min-height: 700px;
+	opacity:1;
+}
+
+.bgimg4 {
+	background-image:  url('cityoftokyo.jpg');
+	min-height: 500px;
+
+}
+
+
+.bg-dark {
+	color: #ddd;
+	background-color: #282e34;
+	text-align: center;
+	padding: 50px 80px;
+	text-align:  center;
+}
+
+.bg-light {
+	color: #777;
+	background-color: #E5E4E0 ;
+	text-align:  center;
+	padding: 50px 80px;
+	text-align:  justify;
+}
+
+.light-text {
+	text-align: center;
+	color: white;
+}
+
+.border {
+	font-size: 25px;
+	color: white;
+}
+
+h3,
+p {
+	text-align: center;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%; /* the box will be in th middle of the web */
+  text-align: center;
+  color: #000;
+}
+
+
+
+.caption span.border { /*the London title*/
+ 	background-color: black;
+ 	color: #fff;
+ 	padding: 20px;
+ 	font-size: 25px;
+ 	letter-spacing: 10px;
+
+}
+ h3 {
+ 	letter-spacing: 10px;
+ 	text-transform: uppercase;
+ 	font: 20px;
+ 	color: black;
+
+ }
+
+.footer {
+	background-color: #333;
+	height: 20px;
+	color: floralwhite;
+
+}
+
+.center {
+	text-align: center;
+	padding: 40px 30px;
+}
